@@ -1,0 +1,42 @@
+/* Hanya untuk elemen dalam kegiatan-container */
+.kegiatan-container .carousel-inner {
+    height: 400px;
+    overflow: hidden; 
+  }
+
+  
+  /* Gaya untuk card item */
+  .kegiatan-container .card-img-top {
+    width: 100%; /* Pastikan gambar memenuhi lebar card */
+    height: 150px; /* Tinggi tetap untuk gambar card */
+    object-fit: cover; /* Potong gambar agar proporsional */
+    object-position: center; /* Fokus pada bagian tengah gambar */
+  }
+  
+  
+  .kegiatan-container .card-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .kegiatan-container .carousel-caption {
+    padding-bottom: 15px;
+  }
+  
+  .kegiatan-container .card-title {
+    margin-bottom: 5px;
+  }
+  
+  .kegiatan-container .card-text {
+    margin-bottom: 5px;
+  }
+  
+  .kegiatan-container .card-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .kegiatan-container .carousel-inner {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
